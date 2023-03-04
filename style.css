@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #30475e;
+  color: white;
+  padding: 20px 0px;
+}
+header nav a {
+  color: white;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+header div.sign-in-up button {
+  background: #75cfb8;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  padding: 4px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 15px;
+}
+
+header div.sign-in-up button:last-child {
+  background: #fa9579;
+}
+
+div.pop-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+div.pop-container div.popup {
+  background-color: #fefefe;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px 25px 30px 25px;
+}
+
+div.pop-container div.popup h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #30475e;
+}
+
+div.pop-container div.popup h2 button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: #797775;
+  cursor: pointer;
+}
+
+/* this below css is not working */
+
+div.pop-container div.popup h2 input {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom-color: 2px solid #30475e;
+  border-radius: 0;
+  padding: 50px 0px;
+  font-weight: 550;
+  font-size: 15px;
+  outline: none;
+}
+
+div.pop-container div.popup button.login-btn{
+    font-weight: 550;
+    font-style: 15px;
+    color: white;
+    background-color: #30475e;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.pop-container div.register{
+    background-color: #ededf7;
+}
+
+div.pop-container div.register h2{
+    color: #fa9579;
+}
+
+div.pop-container div.register input{
+     border-bottom-color:#fa9579 ;
+}
+
+div.pop-container div.register button.register-btn{
+    background-color: #fa9579;
+}
+
+div.user{
+    color: #30475e;
+    background-color: #75cfb8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+div.user a{
+    color: #30475e;
+}
+
